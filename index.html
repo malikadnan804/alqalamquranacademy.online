@@ -2,153 +2,153 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Al Qalam Quran Academy</title>  <style>
+  <title>Al Qalam Quran Academy | Online Quran Learning</title>
+  <meta name="description" content="Professional Online Quran Academy offering Nazra, Hifz, Tajweed, Hadith and Tafseer with expert male and female teachers." />  <style>
     *{margin:0;padding:0;box-sizing:border-box;font-family:Arial;}
+    body{background:#f4fff4;color:#222;overflow-x:hidden;scroll-behavior:smooth;}
 
-    body{
-      background:#f4fff4;
-      color:#222;
-      overflow-x:hidden;
+    @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+
+    nav{
+      position:fixed;top:0;width:100%;
+      background:#0b6b3a;color:white;
+      display:flex;justify-content:space-between;
+      padding:12px 20px;z-index:1000;
     }
 
-    /* ANIMATION */
-    @keyframes fadeUp {
-      from {opacity:0; transform:translateY(20px);}
-      to {opacity:1; transform:translateY(0);}
-    }
-
-    @keyframes zoomIn {
-      from {transform:scale(0.9); opacity:0;}
-      to {transform:scale(1); opacity:1;}
-    }
+    nav a{color:white;text-decoration:none;margin:0 8px;font-size:14px}
 
     header{
       background:linear-gradient(135deg,#0b6b3a,#12a150);
-      color:white;
-      text-align:center;
-      padding:30px 15px;
-      animation:fadeUp 0.8s ease;
+      color:white;text-align:center;
+      padding:90px 15px 40px;
+      animation:fadeUp .8s ease;
     }
 
-    header h1{font-size:32px;}
-    header p{font-size:14px;opacity:0.9;margin-top:5px;}
+    header h1{font-size:34px;}
+    header p{font-size:14px;opacity:.9;margin-top:5px;}
 
     .hero{
       text-align:center;
       padding:60px 20px;
       background:#eaffea;
-      animation:fadeUp 1s ease;
     }
-
-    .hero h2{font-size:30px;margin-bottom:10px;}
-    .hero p{max-width:700px;margin:auto;color:#444;}
 
     .btn{
-      display:inline-block;
-      margin-top:20px;
+      display:inline-block;margin-top:20px;
       padding:12px 25px;
       background:linear-gradient(135deg,#0b6b3a,#12a150);
-      color:white;
-      text-decoration:none;
-      border-radius:8px;
-      transition:0.3s;
+      color:white;text-decoration:none;
+      border-radius:8px;transition:.3s;
     }
 
-    .btn:hover{
-      transform:scale(1.05);
-    }
+    .btn:hover{transform:scale(1.05)}
 
-    section{
-      padding:50px 20px;
-      text-align:center;
-      animation:fadeUp 1s ease;
-    }
-
+    section{padding:60px 20px;text-align:center;}
     h2{margin-bottom:20px;}
 
     .grid{
       display:grid;
       grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
       gap:20px;
-      max-width:1000px;
+      max-width:1100px;
       margin:auto;
     }
 
     .card{
       background:white;
-      padding:25px;
+      padding:20px;
       border-radius:15px;
-      box-shadow:0 8px 20px rgba(0,0,0,0.08);
-      transition:0.3s;
-      animation:zoomIn 0.6s ease;
+      box-shadow:0 8px 20px rgba(0,0,0,.08);
+      cursor:pointer;
+      transition:.3s;
     }
 
-    .card:hover{
-      transform:translateY(-8px);
-    }
+    .card:hover{transform:translateY(-6px)}
 
-    .card h3{color:#0b6b3a;margin-bottom:10px;}
-
-    .contact{
-      background:#eaffea;
-      padding:40px 20px;
-      text-align:center;
-    }
+    .detail{max-height:0;overflow:hidden;transition:.4s ease;font-size:14px;color:#444}
+    .card.active .detail{max-height:200px;margin-top:10px}
 
     footer{
-      background:#0b6b3a;
-      color:white;
-      text-align:center;
-      padding:15px;
-      margin-top:20px;
+      background:#0b6b3a;color:white;
+      text-align:center;padding:15px;
     }
 
-    /* WHATSAPP BUTTON */
     .whatsapp{
-      position:fixed;
-      bottom:20px;
-      right:20px;
-      background:#25d366;
-      color:white;
-      padding:14px 16px;
-      border-radius:50px;
-      text-decoration:none;
-      font-weight:bold;
-      box-shadow:0 5px 15px rgba(0,0,0,0.2);
-      animation:fadeUp 1s ease;
+      position:fixed;bottom:20px;right:20px;
+      background:#25d366;color:white;
+      padding:14px 16px;border-radius:50px;
+      text-decoration:none;font-weight:bold;
     }
-  </style></head><body><header>
+  </style></head><body><nav>
+  <div><b>Al Qalam</b></div>
+  <div>
+    <a href="#courses">Courses</a>
+    <a href="#why">Why Us</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav><header>
   <h1>Al Qalam Quran Academy</h1>
-  <p>Learn Quran Online with Expert Teachers</p>
+  <p>Professional Online Quran Learning Platform</p>
 </header><div class="hero">
-  <h2>Professional Online Quran Learning</h2>
-  <p>
-    Nazra, Hifz, Tajweed, Hadith and Tafseer courses with qualified male and female teachers.
-  </p>
-  <a class="btn" href="https://wa.me/923055007675">Start Learning Now</a>
-</div><section>
+  <h2>Learn Quran with Expert Teachers</h2>
+  <p>Structured online classes for kids & adults worldwide</p>
+  <a class="btn" href="https://wa.me/923055007575">Start Learning</a>
+</div><section id="courses">
   <h2>Our Courses</h2>
-  <div class="grid">
-    <div class="card"><h3>Nazra Quran</h3></div>
-    <div class="card"><h3>Hifz Program</h3></div>
-    <div class="card"><h3>Tajweed</h3></div>
-    <div class="card"><h3>Hadith Studies</h3></div>
-    <div class="card"><h3>Tafseer Quran</h3></div>
-  </div>
-</section><section>
-  <h2>Why Choose Us</h2>
-  <div class="grid">
-    <div class="card"><h3>Expert Teachers</h3><p>Qualified male & female teachers</p></div>
-    <div class="card"><h3>Easy Learning</h3><p>Simple structured classes</p></div>
-    <div class="card"><h3>Flexible Timing</h3><p>According to your schedule</p></div>
-  </div>
-</section><section class="contact">
-  <h2>Contact Us</h2>
-  <p>📞 +92 305 5007675</p>
-  <p>📧 Alqalamquranacademyonlinepk@gmail.com</p>
-</section><footer>
-  © 2026 Al Qalam Quran Academy
-</footer><a class="whatsapp" href="https://wa.me/923055007675">WhatsApp</a>
+  <div class="grid"><div class="card" onclick="toggle(this)">
+  <h3>Nazra Quran</h3>
+  <div class="detail">Basic Quran reading with correct pronunciation and fluency.</div>
+</div>
 
-</body>
+<div class="card" onclick="toggle(this)">
+  <h3>Hifz Program</h3>
+  <div class="detail">Complete Quran memorization with revision system and expert guidance.</div>
+</div>
+
+<div class="card" onclick="toggle(this)">
+  <h3>Tajweed</h3>
+  <div class="detail">Proper rules of Quran recitation with correct pronunciation.</div>
+</div>
+
+<div class="card" onclick="toggle(this)">
+  <h3>Hadith Studies</h3>
+  <div class="detail">Learning authentic Hadith with explanation and understanding.</div>
+</div>
+
+<div class="card" onclick="toggle(this)">
+  <h3>Tafseer Quran</h3>
+  <div class="detail">Detailed explanation of Quranic verses for deep understanding.</div>
+</div>
+
+  </div>
+</section><section id="why">
+  <h2>Why Choose Us</h2>
+  <div class="grid"><div class="card">
+  <h3>Expert Teachers</h3>
+  <div class="detail">Qualified male & female teachers with experience.</div>
+</div>
+
+<div class="card">
+  <h3>Easy Learning</h3>
+  <div class="detail">Simple structured and friendly learning system.</div>
+</div>
+
+<div class="card">
+  <h3>Flexible Timing</h3>
+  <div class="detail">Classes according to your schedule.</div>
+</div>
+
+  </div>
+</section><section id="contact">
+  <h2>Contact Us</h2>
+  <p>📞 +92 305 5007575</p>
+  <p>📧 Alqalamquranacademyonlinepk@gmail.com</p>
+</section><footer>© 2026 Al Qalam Quran Academy</footer><a class="whatsapp" href="https://wa.me/923055007575">WhatsApp</a>
+
+<script>
+function toggle(card){
+  card.classList.toggle('active');
+}
+</script></body>
 </html>
